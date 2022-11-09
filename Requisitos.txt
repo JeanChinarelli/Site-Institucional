@@ -1,0 +1,35 @@
+site de perfume ?
+simples 
+funcional
+
+Avaliação -
+A estruturação em conformidade com o padrão HTML e CSS;
+A qualidade visual;
+A quantidade de páginas de conteúdo adicionadas;
+A qualidade dos conteúdos: textos, imagens, vídeos, etc.
+
+
+Pages -
+Home Page
+Products
+Our History
+Contact us
+Work with us
+
+
+Obrigatório - 
+Formulário
+conteúdo multimidia
+Banco de dados
+
+
+Desejável - 
+Conteudos avançados (svg, parallax, etc)
+Simples
+Bonito visualmente
+
+
+Opcional - 
+Multimidia avançada (videos editados, etc)
+Perfume espirrando (achei legal quero fazer)
+
