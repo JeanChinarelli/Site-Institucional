@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('/img/gilroy-medium.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    url('/img/gilroy-medium.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-    url('/img/gilroy-medium.eot');
+    src: url('img/gilroy-medium.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('img/gilroy-medium.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    url('img/gilroy-medium.eot');
 } 
 
 body {
@@ -77,11 +77,17 @@ header {
     cursor: pointer;
 }
 
+.button-primary{
+    padding: 18px 45px 18px 45px;
+    background-color: #25A4AD;
+    color: #FFFFFF;
+}
+
 /* main img, menina */
 
 .main{
     display: grid;
-    grid-template-columns: 710px 1fr;
+    grid-template-columns: 750px 1fr;
 }
 
 .main-img {
@@ -149,7 +155,56 @@ header {
     right: 0;
 }
 
+.square.grey{
+    position: absolute;
+    content: '';
+    width: 29px;
+    height: 29px;
+    background-color: #D4CCC9;
+    top: 400px;
+    right: 620px;
+}
+
+.square{
+    position: absolute;
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-color: #CCFBFF;
+    top: 670px;
+    right: 570px;
+}
+
+.square.two{
+    width: 47px;
+    height: 47px;
+    top: 728px;
+    right: 523px;
+}
+
+/* acaba */
+
 .main-text{
     width: 50%;
-    margin-top: 300px;
+    margin-top: 200px;
+}
+
+.main-text h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: #313131;
+}
+
+.main-text p{
+    margin-bottom: 50px;
+}
+
+.text-web{
+    color:#25A4AD;
+    font-size: 80px;
+    white-space : nowrap;
+}
+
+p{
+    margin: 0;
 }
