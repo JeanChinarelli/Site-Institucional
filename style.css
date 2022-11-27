@@ -5,90 +5,151 @@
     url('/img/gilroy-medium.eot');
 } 
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Gilroy';
 }
 
-main{
+main {
     width: 80%;
     margin: 0 auto;
 }
 
-li{
+li {
     display: inline;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
 
-.payme, ul:first-child{
+.payme,
+ul:first-child {
     color: #25A4AD;
 }
 
-ul, .sign{
+ul,
+.sign {
     margin: 0;
     padding: 15px 0 15px 0;
 }
 
-ul li:nth-child(-n+4){
+ul li:nth-child(-n+4) {
     margin-right: 50px;
 }
 
-header{
+.menu {
+    transition: font-size 1.2s;
+}
+
+.menu:hover {
+    font-size: 20.7px;
+}
+
+header {
     display: flex;
     justify-content: space-between;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
-.btn.secondary{
+.btn.secondary {
     padding: 18px 45px 18px 45px;
-    border:solid 1px #25A4AD;
-    color:#25A4AD;
+    border: solid 1px #25A4AD;
+    color: #25A4AD;
+    cursor: pointer;
+    /* Preparando as transições de cor de fundo e cor do texto*/
+    transition: background-color 1.2s, color 1.2s;
 }
 
-.btn.primary{
-    margin-right: 28px;
+
+/* Transições de cor de fundo e cor do texto*/
+
+.btn.secondary:hover {
+    background-color: #25A4AD;
+    color: #FFFFFF;
 }
+
+.btn.primary {
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+/* main img, menina */
 
 .main{
-    display: flex;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: 710px 1fr;
 }
 
-.main-img{
+.main-img {
     display: grid;
     position: absolute;
-    right: 135px;
+    right: 130px;
 }
 
 .main-img img{
-    margin-top: 40px;
+    margin-top: 20px;
     z-index: 1;
     position: absolute;
     right: 20px;
 }
+
+/* spans */
+
 .rectangle.primary{
-    position:absolute;
-    z-index: -1;
-    top: 180px;
-    right: 20px;
+    margin-top: 180px;
+    margin-right: 20px;
 }
 
 .rectangle.secondary{
     position:absolute;
-    z-index: -1;
     top: 180px;
     right: 3px;
 }
 
-.vector{
+.vector {
     position: absolute;
     right: 500px;
     top:215px;
+}
+
+.linha{
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 130px;
+    border: solid 1px #25A4AD;
+    transform: rotate(70deg);
+    top:0;
+    left: -112px;
+}
+
+.ball{
+    position: absolute;
+    content: '';
+    left: 490px;
+    top: 150px;
+    width: 40px;
+    height: 40px;
+    background-color:#FFC229;
+    border-radius: 0 20px 20px 20px;
+}
+
+.canto-superior{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 45px;
+    background-color:#FFC229;
+    border-radius: 40px 0 0px 40px;
+    top:-20px;
+    right: 0;
+}
+
+.main-text{
+    width: 50%;
+    margin-top: 300px;
 }
