@@ -17,8 +17,8 @@
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "edipojoseoliveira@gmail.com";
-  $assunto = "Contato pelo Site";
+  $destino = "trabalhoso2rossano@gmail.com";
+  $assunto = "Contato pelo gmail";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
   $headers  = "MIME-Version: 1.0\n";
