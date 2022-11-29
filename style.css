@@ -3,7 +3,7 @@
     src: url('img/gilroy-medium.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     url('img/gilroy-medium.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
     url('img/gilroy-medium.eot');
-} 
+}
 
 body {
     margin: 0;
@@ -77,6 +77,21 @@ header {
     cursor: pointer;
 }
 
+.button-primary {
+    padding: 18px 45px 18px 45px;
+    background-color: #25A4AD;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* main img, menina */
+
+.main {
+    display: grid;
+    grid-template-columns: 750px 1fr;
+}
+
 .button-primary{
     padding: 18px 45px 18px 45px;
     background-color: #25A4AD;
@@ -94,9 +109,10 @@ header {
     display: grid;
     position: absolute;
     right: 130px;
+    right: 130px;
 }
 
-.main-img img{
+.main-img img {
     margin-top: 20px;
     z-index: 1;
     position: absolute;
