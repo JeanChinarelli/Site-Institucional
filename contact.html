@@ -29,25 +29,28 @@
                 <li><a class="btn secondary">Sign up</a></li>
             </div>
         </header>
-
-        <div id="new">
-            <h1>CONTACT US</h1>
-        </div>
+        <!--
         <div id="pagina">
             <form action="enviaremail.php" method="post">
-
-                <label for="lname">Personal name or company name</label><br>
-                <input type="text" id="name"><br>
-
-                <label for="lemail">Email</label><br>
-                <input type="email" id="semail"><br>
-
-                <label for="">Message</label><br>
-                <textarea name="message" cols="30" rows="10"></textarea>
-
-                <button class="btn secondary">Send</button>
+                <div class="screen-body-item">
+                    <div class="app-form">
+                        <div class="app-form-group">
+                            <label for="lname">Personal name or company name</label><br>
+                            <input class="app-form-group" type="text" id="name"><br>
+                        </div>
+                        <div class="app-form-group">
+                            <label for="lemail">Email</label><br>
+                            <input class="app-form-group" type="email" id="semail"><br>
+                        </div>
+                        <div class="app-form-group">
+                            <label for="">Message</label><br>
+                            <textarea class="app-form-group" name="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="btn secondary">Send</button>
+                    </div>
+                </div>
             </form>
-        </div>
+        </div> -->
         <div class="background">
             <div class="container">
                 <div class="screen">
@@ -60,26 +63,28 @@
                             </div>
                             <div class="app-contact">CONTACT INFO : +55 19 314 928 595</div>
                         </div>
-                        <div class="screen-body-item">
-                            <div class="app-form">
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="NAME">
-                                </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="EMAIL">
-                                </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="Title">
-                                </div>
-                                <div class="app-form-group message">
-                                    <input class="app-form-control" placeholder="MESSAGE">
-                                </div>
-                                <div class="app-form-group buttons">
-                                    <button class="app-form-button">CANCEL</button>
-                                    <button class="app-form-button">SEND</button>
+
+                        <form action="enviaremail.php" method="post">
+                            <div class="screen-body-item">
+                                <div class="app-form">
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="NAME">
+                                    </div>
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="EMAIL">
+                                    </div>
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="Title">
+                                    </div>
+                                    <div class="app-form-group message">
+                                        <input class="app-form-control" placeholder="MESSAGE">
+                                    </div>
+                                    <div class="app-form-group buttons">
+                                        <button class="app-form-button">SEND</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
 
