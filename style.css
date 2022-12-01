@@ -15,9 +15,11 @@ main {
     width: 80%;
     margin: 0 auto;
 }
-
+ul,.sign{
+    display: flex;
+    flex-wrap: wrap;
+}
 li {
-    display: inline;
     list-style: none;
 }
 
@@ -56,7 +58,7 @@ header {
 }
 
 .btn.secondary {
-    padding: 18px 45px 18px 45px;
+    padding: 15px 44px 15px 44px;
     border: solid 1px #25A4AD;
     color: #25A4AD;
     cursor: pointer;

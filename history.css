@@ -1,3 +1,55 @@
-img{
-    max-width: 300px;
+.eu img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ea1d6f;
+    margin-right: 20vh;
+}
+
+.eu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pagina{
+    display: flex;
+    flex-direction: column;
+}
+
+.history{
+    background-color: rgb(36, 36, 36);
+    color:rgb(226, 226, 226);
+    padding: 20px;
+    border: 2px solid #585858;
+    border-radius: 15px;
+}
+
+.tecno{
+    background-color: rgb(77, 49, 40);
+    padding: 20px;
+    border: 2px solid #585858;
+    border-radius: 15px;
+    width: 470px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+}
+
+.tecno h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.tecno img, .tecno svg{
+    transition: width 1.2s, height 1.2s;
+}
+
+.tecno img:hover, .tecno svg:hover{
+    width: 120px;
+    height: 120px;
+}
+
+.perfil{
+    display: grid;
+    margin-top: 50px;
+    gap: 50px;
 }
