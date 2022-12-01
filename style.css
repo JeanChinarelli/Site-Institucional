@@ -134,6 +134,16 @@ header {
     right: 3px;
 }
 
+.retangulo-canto{
+    position: absolute;
+    content: '';
+    width: 37px;
+    height: 68px;
+    background-color: #D7FCFF;
+    top: 490px;
+    left: 0;
+}
+
 .vector {
     position: absolute;
     right: 500px;
@@ -160,6 +170,25 @@ header {
     height: 40px;
     background-color:#FFC229;
     border-radius: 0 20px 20px 20px;
+}
+
+.ball.second{
+    background-color:#45EC9C;
+    border-radius: 50% 50% 50% 0;
+    top: 890px;
+    left: 30px;
+    width: 59px;
+    height: 59px;
+}
+
+.ball.three{
+    background-color: #DEBBAF;
+    border-radius: 0 50% 50% 50%;
+    top: 860px;
+    left: auto;
+    right: 30px;
+    width: 59px;
+    height: 59px;
 }
 
 .canto-superior{
